@@ -46,9 +46,6 @@ python3 viewer.py
 ```
 After you run the mentioned code in your console, it opens a browser page in the background.
 
-![wifi](./etc/pic2.JPG)
-
- 
  
  
 ## CODE
@@ -70,6 +67,31 @@ url = 'https://www.youtube.com/channel/UC9BJisjDT9Gm4zdH1GZTuPA/videos'
 
 
 
+
+
+
+
+
+
+
+ 
+ # Future 
+ You can use this project to increase your Youtube video viewers. As my next step, I can modify the code to work on those videos with ADs. 
+ 
+Furthermore, I have a plan to modify this code to create different accounts in order to be able to like the video and subscribe to the channels.
+ 
+ 
+
+
+# Contact Me
+
+Email: haratiank2@gmail.com
+
+YouTube channel: https://www.youtube.com/channel/UCvf9_53f6n3YjNEA4NxAkJA?view_as=subscriber
+
+GitHub: https://github.com/Kianoush-h
+
+LinkedIn: https://www.linkedin.com/in/kianoush-haratiannejadi/
 
 
 
