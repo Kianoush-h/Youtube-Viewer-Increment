@@ -1,8 +1,8 @@
 # Youtube Viewer Increment
-Increse your viewers with this bot !
+Increase your viewers with this bot!
 
 
-This code uses selenium to scrap the Youtube page that you want to increase its viewers count. In the following sections I wil explain how to enter your page URL and how this code increases the viewers.
+This code uses selenium to scrap the Youtube page that you want to increase its viewers count. In the following sections, I will explain how to enter your page URL and how this code increases the viewers.
 
 
 
@@ -11,11 +11,11 @@ This code uses selenium to scrap the Youtube page that you want to increase its 
 
 ### Dependencies
 
-You need the following dependencies:
+It would help if you had the following dependencies:
 
 - python3
 - selenium
-- pyfy
+- pafy
 - youtube-dl
 
 
@@ -39,7 +39,7 @@ $ pip3 install -r requirements.txt
 
 ## Run the code
 
-You can run the the code with this:
+You can run the code with this:
 
 ```
 python3 viewer.py
@@ -61,16 +61,22 @@ import pafy
  
 You can enter your page URL here:
  ```
-url = 'https://www.youtube.com/channel/UC9BJisjDT9Gm4zdH1GZTuPA/videos'
+URL = '...........'
+ ```
+
+- You need to enter the page URL that contains all the videos.
+- For now, this code works perfectly on the videos without Ads.
+
+
+
+This code runs in the background, and you won't see the browser page. If you wish to see the browser page, you need to disable the "headless" line from the options section as follows:
+
+ ```
+options.headless = True
  ```
 
 
-
-
-
-
-
-
+In each iteration, the code gets the video length and sleeps for that duration. Then, it plays the next video and waits until it ends.
 
 
 
